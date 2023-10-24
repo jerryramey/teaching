@@ -14,4 +14,8 @@ class Student
     @last_name = last_name
   end
 
+  def name
+    return "#{@first_name} #{@last_name}"
+  end
+
 end
