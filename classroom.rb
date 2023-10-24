@@ -20,5 +20,9 @@ class Classroom
     @students.pop
   end
 
+  def student_count
+    @students.size
+  end
+
 
 end
